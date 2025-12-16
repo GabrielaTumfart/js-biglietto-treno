@@ -37,18 +37,18 @@ if (userEta < 18) {
 } else if (userEta > 65) {
 
     alert("L'utente è Over 65!")
-    
+
 } else {
 
     alert("L'utente è maggiorenne.");
-    
+
 }
 
-  
+
 
 
 const prezzoBigliettoAlChilometro = 0.21;
-console.log(prezzoBigliettoAlChilometro); 
+console.log(prezzoBigliettoAlChilometro);
 
 const chilometriPerPrezzo = prezzoBigliettoAlChilometro * userChilometri;
 console.log(chilometriPerPrezzo);
@@ -64,13 +64,40 @@ console.log(scontoMinorrenne);
 const scontoAnziani = 0.4;
 console.log(scontoAnziani);
 
-    const prezzoFinaleMinorenne  = (prezzoBigliettoAlChilometro * userChilometri) * scontoMinorrenne;
-    console.log(prezzoFinaleMinorenne);
 
-    const prezzoFinaleAnziani = (prezzoFinaleMinorenne * userChilometri) * scontoAnziani;
-    console.log(prezzoFinaleAnziani);
-    
-    
+
+// Prezzo finale
+
+const prezzoFinaleMinorenne = (prezzoBigliettoAlChilometro * userChilometri) * scontoMinorrenne;
+console.log(prezzoFinaleMinorenne);
+
+const prezzoFinaleAnziani = (prezzoFinaleMinorenne * userChilometri) * scontoAnziani;
+console.log(prezzoFinaleAnziani);
+
+
+// Formula copiata da Tiziano
+
+const min = 50;
+
+const max = 100;
+const
+    myRandomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+console.
+
+    if(condition) {
+
+} else if (condition) {
+
+} else {
+
+}
+
+
+
+
+
+
+
 
 
 
