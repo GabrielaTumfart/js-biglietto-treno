@@ -20,3 +20,6 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 
 const userEta = prompt("Quanti anni hai?");
 console.log(userEta);
+
+const userChilometri = prompt("Quanti chilometri vorresti percorrere?");
+console.log(userChilometri);
