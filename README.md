@@ -1,4 +1,7 @@
-/*
+Ciao ragazzi,
+esercizio di oggi: Biglietto del treno
+cartella/repo js-biglietto-treno
+
 Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero.
 
 Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
@@ -14,4 +17,4 @@ per controllare che la vostra logica sui prezzi funzioni correttamente, provate 
 100km, 10 anni => prezzo corretto:  €16.80
 100km, 70 anni => prezzo corretto: €12.60
 
- */
+Buon lavoro!
