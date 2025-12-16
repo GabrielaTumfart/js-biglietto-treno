@@ -68,6 +68,8 @@ console.log(scontoAnziani);
 
 // Prezzo finale
 
+const prezzoFinalePieno = userChilometri * prezzoBigliettoAlChilometro;
+
 const prezzoFinaleMinorenne = (prezzoBigliettoAlChilometro * userChilometri) * scontoMinorrenne;
 console.log(prezzoFinaleMinorenne);
 
@@ -90,11 +92,22 @@ let prezzoFinale;
 
         prezzoFinale = prezzoFinaleMinorenne;
 
-} else if (condition) {
+} else if (userEta > 65)) {
+
+    prezzoFinale = prezzoFinaleAnziani;
 
 } else {
 
+    prezzoFinale = prezzoPieno;
+
 }
+
+// Output per il prezzo finale
+
+
+alert("Prezzo finale da pagare è: €" + prezzoFinale.tofixed(2)); // preso da tiziano
+console.log("Prezzo finale da pagare è: €"+ prezzoFinale.tofixed(2) );
+
 
 
 
