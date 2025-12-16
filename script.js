@@ -43,6 +43,8 @@ if (userEta < 18) {
 const prezzoBigliettoAlChilometro = 0.21;
 console.log(prezzoBigliettoAlChilometro); 
 
+const chilometriPerPrezzo = prezzoBigliettoAlChilometro * userChilometri;
+
 
 
 
