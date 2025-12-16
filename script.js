@@ -30,8 +30,6 @@ per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
  */
 
-
-
 if (userEta < 18) {
 
     alert("L'utente è minorenne");
@@ -39,5 +37,14 @@ if (userEta < 18) {
 } else {
 
     alert("L'utente è maggiorenne");
+
 }
+
+const prezzoBigliettoAlChilometro = 0.21;
+console.log(prezzoBigliettoAlChilometro); 
+
+
+
+
+
 
