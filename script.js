@@ -52,10 +52,18 @@ console.log(chilometriPerPrezzo);
 const scontoMinorrenne = 0,2;
 console.log(scontoMinorrenne);
 
-// Sconto maggiorenne
+// Sconto Over 65
 
-const scontoMaggiorenne = 0,4;
-console.log(scontoMinorrenne);
+const scontoAnziani = 0,4;
+console.log(scontoAnziani);
+
+    const prezzoFinaleMinorenne  = (prezzoBigliettoAlChilometro * userChilometri) * scontoMinorrenne;
+    console.log(prezzoFinaleMinorenne);
+
+    const prezzoFinaleAnziani = (prezzoFinaleMinorenne * userChilometri) * scontoAnziani;
+    console.log(prezzoFinaleAnziani);
+    
+    
 
 
 
