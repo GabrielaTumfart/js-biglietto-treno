@@ -34,7 +34,7 @@ if (userEta < 18) {
 
     alert("Sei minorenne! Hai uno sconto del 20%.");
 
-} else if (userEta > 65) {
+} else if (userEta > 64) {
 
     alert("Sei Over 65! Hai uno sconto del 40%.")
 
@@ -79,11 +79,11 @@ console.log(scontoAnziani);
 let prezzoPieno;
 let prezzoFinale;
 
-if(userEta < 18) {
+if (userEta < 18) {
 
-        prezzoFinale = chilometriPerPrezzo - (chilometriPerPrezzo * scontoMinorrenne);
+    prezzoFinale = chilometriPerPrezzo - (chilometriPerPrezzo * scontoMinorrenne);
 
-} else if (userEta > 65) {
+} else if (userEta > 64) {
 
     prezzoFinale = chilometriPerPrezzo - (chilometriPerPrezzo * scontoAnziani);
 
@@ -96,8 +96,8 @@ if(userEta < 18) {
 // Output per il prezzo finale
 
 // preso da tiziano
-alert("Prezzo finale da pagare è: €" + prezzoFinale.toFixed(2)); 
-console.log("Prezzo finale da pagare è: €" + prezzoFinale.toFixed(2) );
+alert("Prezzo finale da pagare è: €" + prezzoFinale.toFixed(2));
+console.log("Prezzo finale da pagare è: €" + prezzoFinale.toFixed(2));
 
 
 
