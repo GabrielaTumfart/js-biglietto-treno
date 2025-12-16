@@ -32,15 +32,15 @@ per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
 if (userEta < 18) {
 
-    alert("L'utente è minorenne!");
+    alert("Sei minorenne! Hai uno sconto del 20%.");
 
 } else if (userEta > 65) {
 
-    alert("L'utente è Over 65!")
+    alert("Sei Over 65! Hai uno sconto del 40%.")
 
 } else {
 
-    alert("L'utente è maggiorenne.");
+    alert("Sei maggiorenne!");
 
 }
 
@@ -78,11 +78,11 @@ console.log(prezzoFinaleAnziani);
 // Formula copiata da Tiziano
 
 const min = 50;
-
 const max = 100;
-const
-    myRandomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-console.
+
+const myRandomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(myRandomNumber);
+
 
     if(condition) {
 
