@@ -83,10 +83,12 @@ const max = 100;
 const myRandomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log(myRandomNumber);
 
-
+let prezzoPieno;
 let prezzoFinale;
 
-    if(condition) {
+    if(userEta < 18) {
+
+        prezzoFinale = prezzoFinaleMinorenne;
 
 } else if (condition) {
 
