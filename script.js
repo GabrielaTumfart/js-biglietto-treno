@@ -46,11 +46,18 @@ console.log(prezzoBigliettoAlChilometro);
 const chilometriPerPrezzo = prezzoBigliettoAlChilometro * userChilometri;
 console.log(chilometriPerPrezzo);
 
-//sconto se minorenne
+// sconto se minorenne
 
 
 const scontoMinorrenne = 0,2;
 console.log(scontoMinorrenne);
+
+// Sconto maggiorenne
+
+const scontoMaggiorenne = 0,4;
+console.log(scontoMinorrenne);
+
+
 
 
 
