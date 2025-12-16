@@ -68,45 +68,36 @@ console.log(scontoAnziani);
 
 // Prezzo finale
 
-const prezzoFinalePieno = userChilometri * prezzoBigliettoAlChilometro;
-
-const prezzoFinaleMinorenne = (prezzoBigliettoAlChilometro * userChilometri) * scontoMinorrenne;
-console.log(prezzoFinaleMinorenne);
-
-const prezzoFinaleAnziani = (prezzoFinaleMinorenne * userChilometri) * scontoAnziani;
-console.log(prezzoFinaleAnziani);
+// Se l'utente ha 10 anni e percorre 100 km
+// il prezzo deve essere: 100 * 0.21 = 21 euro 
+// con sconto del 20% il prezzo è: 21 * 0.2 = 4,2 
+// 21 prezzo peino - 4,2 = 16,8
 
 
-// Formula copiata da Tiziano
 
-const min = 50;
-const max = 100;
-
-const myRandomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-console.log(myRandomNumber);
 
 let prezzoPieno;
 let prezzoFinale;
 
-    if(userEta < 18) {
+if(userEta < 18) {
 
-        prezzoFinale = prezzoFinaleMinorenne;
+        prezzoFinale = chilometriPerPrezzo - (chilometriPerPrezzo * scontoMinorrenne);
 
-} else if (userEta > 65)) {
+} else if (userEta > 65) {
 
-    prezzoFinale = prezzoFinaleAnziani;
+    prezzoFinale = chilometriPerPrezzo - (chilometriPerPrezzo * scontoAnziani);
 
 } else {
 
-    prezzoFinale = prezzoPieno;
+    prezzoFinale = chilometriPerPrezzo;
 
 }
 
 // Output per il prezzo finale
 
-
-alert("Prezzo finale da pagare è: €" + prezzoFinale.tofixed(2)); // preso da tiziano
-console.log("Prezzo finale da pagare è: €"+ prezzoFinale.tofixed(2) );
+// preso da tiziano
+alert("Prezzo finale da pagare è: €" + prezzoFinale.toFixed(2)); 
+console.log("Prezzo finale da pagare è: €" + prezzoFinale.toFixed(2) );
 
 
 
