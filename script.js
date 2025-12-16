@@ -32,13 +32,20 @@ per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
 if (userEta < 18) {
 
-    alert("L'utente è minorenne");
+    alert("L'utente è minorenne!");
 
+} else if (userEta > 65) {
+
+    alert("L'utente è Over 65!")
+    
 } else {
 
-    alert("L'utente è maggiorenne");
-
+    alert("L'utente è maggiorenne.");
+    
 }
+
+  
+
 
 const prezzoBigliettoAlChilometro = 0.21;
 console.log(prezzoBigliettoAlChilometro); 
