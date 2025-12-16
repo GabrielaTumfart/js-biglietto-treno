@@ -84,6 +84,8 @@ const myRandomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
 console.log(myRandomNumber);
 
 
+let prezzoFinale;
+
     if(condition) {
 
 } else if (condition) {
